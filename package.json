@@ -1,0 +1,19 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --watch",
+    "runFakeDB": "json-server --watch db.json"
+  },
+  "author": "didenjj@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "lite-server": "^2.6.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}

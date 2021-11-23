@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap');
+
+html {
+    font-family: Montserrat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.questionContainer > p {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.nameContainer > p {
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+input[type="radio"] {
+    margin: 0 15px 15px 0;  
+}
+
+input[type="checkbox"] {
+    margin: 0 15px 15px 0;
+}
+
+
+.answersContainer > .question {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.answersContainer > .answer {
+    font-style: italic;
+    margin-left: 15px;
+    margin-top: 10px;
+}
